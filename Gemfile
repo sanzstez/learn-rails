@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'unicorn'
 
 # Rails defaults
 gem 'puma', '~> 3.0'
@@ -36,4 +37,13 @@ end
 group :test do
   gem 'minitest-spec-rails'
   gem 'minitest-rails-capybara'
+end
+
+group :development do
+  gem 'capistrano', '~> 3.4'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails', '~> 1.1.0'
+  gem 'capistrano-rails-console', require: false
+  gem 'capistrano-rvm', '~> 0.1.1'
+  gem 'capistrano3-unicorn'
 end
