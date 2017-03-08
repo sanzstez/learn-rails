@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.4.0'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'unicorn'
 
@@ -44,6 +44,6 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rails', '~> 1.1.0'
   gem 'capistrano-rails-console', require: false
-  gem 'capistrano-rvm', '~> 0.1.1'
+  gem 'rvm1-capistrano3'
   gem 'capistrano3-unicorn'
 end
