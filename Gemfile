@@ -40,7 +40,7 @@ group :test do
 end
 
 group :development do
-  gem 'capistrano', '~> 3.5'
+  gem 'capistrano', '~> 3.7'
   gem 'capistrano-bundler'
   gem 'capistrano-rails', '~> 1.1.0'
   gem 'capistrano-rails-console', require: false
