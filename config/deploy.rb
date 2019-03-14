@@ -1,6 +1,5 @@
 set :repo_url, 'git@github.com:sanzstez/learn-rails.git'
 
-set :pty,             true
 set :format,          :pretty
 set :use_sudo,        false
 set :ssh_options,     :forward_agent => true
