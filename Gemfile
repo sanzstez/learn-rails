@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.3'
+ruby '2.3.8'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'unicorn'
 gem 'sidekiq'
@@ -30,7 +30,6 @@ gem 'simple_form'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
-  gem 'sqlite3'
 end
 group :production do
   gem 'pg'
